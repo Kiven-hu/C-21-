@@ -14,7 +14,7 @@ void 0bit 空
 非基本类型：
 enum 枚举
 type[ ] 数组
-struct  结构体
+struct 结构体
 union 共同体
 class  类
 type * ？？？
