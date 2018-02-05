@@ -1,21 +1,21 @@
 Day1
-C++Êı¾İÀàĞÍ£º
-»ù±¾ÀàĞÍ£º
-short int			2bit			¶ÌÕûĞÍ
-int				4bit		ÕûĞÍ
-unsigned int		4bit			ÎŞ·ûºÅÕûĞÍ
-long int			4bit			³¤ÕûĞÍ
-char				1bit		×Ö·ûĞÍ
-float				4bit		µ¥¾«¶ÈĞÍ
-double			8bit			Ë«¾«¶ÈĞÍ
-long double		8bit			³¤Ë«¾«¶ÈĞÍ
-bool				1/8bit?		²¼¶ûĞÍ£¨ÒòÎª²¼¶ûÖ»ÓĞÒ»Î»¶ş½øÖÆÊı£¬Ò»¸ö×Ö½ÚÓÉ8Î»¶ş½øÖÆÊı×é³É£¬ËùÒÔÎÒ²ÂÊÇ1/8£©
-void				0bit		¿Õ
-·Ç»ù±¾ÀàĞÍ£º
-enum						Ã¶¾Ù
-type[ ]						Êı×é
-struct						½á¹¹Ìå
-union						¹²Í¬Ìå
-class						Àà
-type *						£¿£¿£¿
-Ö¸ÕëÀàĞÍ
+C++æ•°æ®ç±»å‹ï¼š
+åŸºæœ¬ç±»å‹ï¼š
+short int			2bit			çŸ­æ•´å‹
+int				    4bit		    æ•´å‹
+unsigned int		4bit			æ— ç¬¦å·æ•´å‹
+long int			4bit			é•¿æ•´å‹
+char				1bit		    å­—ç¬¦å‹
+float				4bit		    å•ç²¾åº¦å‹
+double			    8bit			åŒç²¾åº¦å‹
+long double		    8bit			é•¿åŒç²¾åº¦å‹
+bool				1/8bit?		    å¸ƒå°”å‹ï¼ˆå› ä¸ºå¸ƒå°”åªæœ‰ä¸€ä½äºŒè¿›åˆ¶æ•°ï¼Œä¸€ä¸ªå­—èŠ‚ç”±8ä½äºŒè¿›åˆ¶æ•°ç»„æˆï¼Œæ‰€ä»¥æˆ‘çŒœæ˜¯1/8ï¼‰
+void				0bit		    ç©º
+éåŸºæœ¬ç±»å‹ï¼š
+enum						        æšä¸¾
+type[ ]						        æ•°ç»„
+struct						        ç»“æ„ä½“
+union						        å…±åŒä½“
+class						        ç±»
+type *						        ï¼Ÿï¼Ÿï¼Ÿ
+æŒ‡é’ˆç±»å‹
