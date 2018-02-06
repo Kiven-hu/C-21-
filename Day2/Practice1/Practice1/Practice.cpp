@@ -7,18 +7,18 @@ int main()
 	/*如果你的数组在运行过程中可以确定，
 	比如你输入一个整数来确定数组长度，
 	这样的话可以通过动态内存分配实现。*/
-	int a;
+	int a, num = 0;
 	cin >> a;
-	char *b = new char[a];
+	char *b = new char[a],*c= new char[a];
 	cin >> b;
-	cout << &b << endl << b << endl << *b << endl;
-	//输出地址  内容  指针指向的第一个字符
-	*b = *b + a ;
+	//cout << &b << endl << b[2] << endl << *b << endl;
+	//     输出地址         内容  指针指向的第一个字符
 	for (int i = a; i > 0; i--)
 	{
-		*b = *b - 1;
-		cout << *b ;
+		c[num] = b[i - 1];
+		num += 1;
 	}
+	cout << c;
 	system("pause");
 	return 0;
 
