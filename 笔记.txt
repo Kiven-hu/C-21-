@@ -1,4 +1,4 @@
-Day1
+# Day1
 C++数据类型：
 基本类型：
 short int	2bit 短整型
@@ -19,3 +19,14 @@ union 共同体
 class  类
 type * ？？？
 指针类型
+
+#Day2
+	/*如果你的数组在运行过程中可以确定，
+	比如你输入一个整数来确定数组长度，
+	这样的话可以通过动态内存分配实现。*/
+  eg：
+  int a;
+  char string1;
+  cin>>a;
+  string1=new char[];
+  cin string1;
