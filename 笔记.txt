@@ -30,3 +30,6 @@ type * ？？？
   cin>>a;
   string1=new char[];
   cin string1;
+  
+  #Day3
+  
