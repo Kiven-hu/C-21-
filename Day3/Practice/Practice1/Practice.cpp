@@ -32,6 +32,7 @@
 char *Any_Long_Str(char *p){
 	char *pt;
 	if ((pt = (char *)malloc(N)) == NULL){//Apply for a larger space for temporary use
+		//malloc函数动态分配内存，全称memory allocation
 		printf("Apply for temporary use of space to fail...\n");
 		exit(0);
 	}
