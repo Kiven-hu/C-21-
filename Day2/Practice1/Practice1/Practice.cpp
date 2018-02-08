@@ -11,8 +11,8 @@ int main()
 	cin >> a;
 	char *b = new char[a],*c= new char[a];
 	cin >> b;
-	//cout << &b << endl << b[2] << endl << *b << endl;
-	//     输出地址         内容  指针指向的第一个字符
+	cout << &b << endl << b[2] << endl << *b << endl;
+	//     输出地址       内容  指针指向的第一个字符
 	for (int i = a; i > 0; i--)
 	{
 		c[num] = b[i - 1];

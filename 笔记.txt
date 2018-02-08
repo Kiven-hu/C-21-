@@ -30,6 +30,11 @@ type * ？？？
   cin>>a;
   string1=new char[];
   cin string1;
+	//cout << &b << endl << b[2] << endl << *b << endl;
+	//     输出地址            内容     指针指向的第一个字符
+eg：
+字符串abcdf
+地址 c a
   
   #Day3
   Day3
