@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/2/9 21:02:43。
+     1>项目“H:\Self Code\C++\C-21-\Day5\Day5\Day5.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>h:\self code\c++\c-21-\day5\day5\main.cpp(10): warning C4129: “S”: 不可识别的字符转义序列
+     1>h:\self code\c++\c-21-\day5\day5\main.cpp(10): warning C4129: “C”: 不可识别的字符转义序列
+     1>h:\self code\c++\c-21-\day5\day5\main.cpp(10): warning C4129: “D”: 不可识别的字符转义序列
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Self Code\C++\C-21-\Day5\Debug\Day5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Self Code\C++\C-21-\Day5\Debug\Day5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Self Code\C++\C-21-\Day5\Debug\Day5.lib" /MACHINE:X86 Debug\main.obj
+         Day5.vcxproj -> H:\Self Code\C++\C-21-\Day5\Debug\Day5.exe
+     1>已完成生成项目“H:\Self Code\C++\C-21-\Day5\Day5\Day5.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.14

@@ -18,13 +18,5 @@
     <ClCompile Include="统计元音字母.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Mylibrary.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Mylibrary.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

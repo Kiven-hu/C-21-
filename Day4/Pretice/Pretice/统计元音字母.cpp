@@ -1,16 +1,32 @@
 #include<iostream>
 #include"stdlib.h"
-#include"Mylibrary.h"
-#pragma comment(lib,"Mylibrary.h")
+#define N 131071
 using namespace std;
 
+char *Any_Long_Str(char *p)
+{
+	char *pt;
+	if ((pt = (char *)malloc(N)) == NULL)
+	{
+		cout << "ÉêÇë¶¯Ì¬ÄÚ´æ¿Õ¼äÊ§°Ü" << endl;
+		exit(0);
+	}
+	cin >> pt;
+	if ((p = (char *)malloc(strlen(pt))) == NULL)
+	{
+		cout << "ÉêÇë¶¯Ì¬ÄÚ´æ¿Õ¼äÊ§°Ü" << endl;
+		exit(0);
+	}
+	strcpy(p, pt);
+	return p;
+}
 
 int main()
 {
 	char *vactor = NULL;
 	int count = 0;
-	cout << "ÊäÈë×Ö·û´®";
-	vactor = Any_Long_str(vactor);
+	cout << "ÊäÈë×Ö·û´®" << endl;
+	vactor = Any_Long_Str(vactor);
 	for (unsigned int i = 0; i < strlen(vactor); i++)
 	{
 		if (vactor[i] == 'A' || vactor[i] == 'a' ||
