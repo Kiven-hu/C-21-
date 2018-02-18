@@ -8,7 +8,7 @@ class Student
 {
 public:
 	Student(int, string, float);
-	void display();
+	virtual void display();
 protected:
 	int num;
 	string name;
