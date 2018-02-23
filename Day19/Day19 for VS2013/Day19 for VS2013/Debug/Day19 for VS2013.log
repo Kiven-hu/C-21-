@@ -1,0 +1,40 @@
+﻿生成启动时间为 2018/2/23 23:01:16。
+     1>项目“H:\Self Code\C++\C-21-\Day19\Day19 for VS2013\Day19 for VS2013\Day19 for VS2013.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing day19forvs2013.h...
+         Uic'ing day19forvs2013.ui...
+         Rcc'ing day19forvs2013.qrc...
+     1>RCC : warning : No resources in 'H:\Self Code\C++\C-21-\Day19\Day19 for VS2013\Day19 for VS2013\day19forvs2013.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_day19forvs2013.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_day19forvs2013.cpp, GeneratedFiles\Release\moc_day19forvs2013.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.1\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.5.1\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.1\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.1\5.5\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt day19forvs2013.cpp GeneratedFiles\Debug\moc_day19forvs2013.cpp main.cpp
+         day19forvs2013.cpp
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\day19forvs2013.h(16): error C2653: “ui”: 不是类或命名空间名称
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\day19forvs2013.h(16): error C2146: 语法错误: 缺少“;”(在标识符“ui”的前面)
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\day19forvs2013.h(16): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>day19forvs2013.cpp(7): error C2065: “ui”: 未声明的标识符
+     1>day19forvs2013.cpp(7): error C2228: “.setupUi”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>day19forvs2013.cpp(19): error C2065: “ui”: 未声明的标识符
+     1>day19forvs2013.cpp(19): error C2228: “.input_Edittext”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>day19forvs2013.cpp(19): error C2227: “->toPlainText”的左边必须指向类/结构/联合/泛型类型
+     1>day19forvs2013.cpp(22): error C2065: “ui”: 未声明的标识符
+     1>day19forvs2013.cpp(22): error C2228: “.area_label_3”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>day19forvs2013.cpp(22): error C2227: “->setText”的左边必须指向类/结构/联合/泛型类型
+         moc_day19forvs2013.cpp
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\generatedfiles\debug\../../day19forvs2013.h(16): error C2653: “ui”: 不是类或命名空间名称
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\generatedfiles\debug\../../day19forvs2013.h(16): error C2146: 语法错误: 缺少“;”(在标识符“ui”的前面)
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\generatedfiles\debug\../../day19forvs2013.h(16): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+         main.cpp
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\day19forvs2013.h(16): error C2653: “ui”: 不是类或命名空间名称
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\day19forvs2013.h(16): error C2146: 语法错误: 缺少“;”(在标识符“ui”的前面)
+     1>h:\self code\c++\c-21-\day19\day19 for vs2013\day19 for vs2013\day19forvs2013.h(16): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+         正在生成代码...
+     1>已完成生成项目“H:\Self Code\C++\C-21-\Day19\Day19 for VS2013\Day19 for VS2013\Day19 for VS2013.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.70
